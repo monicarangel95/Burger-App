@@ -1,0 +1,32 @@
+{
+  "name": "hmw-13-burger-logger",
+  "version": "1.0.0",
+  "description": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)   ## Table of Contents   - [Description](#description)   - [Installation](#installation)   - [Usage](#usage)   - [Contribution](#contribution)   - [Test](#test)   - [License](#license)   - [Questions](#questions)   ## Description   Eat-Da-Burger! is a restaurant app that lets users input the names of burgers they'd like to eat.   ## Installation   npm init, npm install express, npm install express-handlebars, npm install mysql   ## Usage   * Whenever a user submits a burger's name, the app will display the burger on the left side of the page -- waiting to be devoured.   * Each burger in the waiting area also has a `Devour it!` button. When the user clicks it, the burger will move to the right side of the page.   ## Test   undefined   ## License   MIT License   Copyright (c) [2020] [Monica Rangel]   ## Questions   - Github: https://github.com/monicarangel95",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monicarangel95/Burger-App.git"
+  },
+  "author": "Monica Rangel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/monicarangel95/Burger-App/issues"
+  },
+  "homepage": "https://github.com/monicarangel95/Burger-App#readme",
+  "devDependencies": {
+    "create-mvc-folder": "^1.0.8",
+    "nodemon": "^2.0.4",
+    "sequelize-cli": "^6.2.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.1.0",
+    "mysql": "^2.18.1",
+    "pg": "^8.3.0",
+    "sequelize": "^6.3.4"
+  },
+  "keywords": []
+}
