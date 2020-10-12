@@ -4,12 +4,17 @@
   ## Table of Contents
   - [Description](#description)
   - [Installation](#installation)
+  - [Deployed Site](##DeployedSite)
   - [Usage](#usage)
   - [Contribution](#contribution)
   - [License](#license)
   - [Questions](#questions)
   ## Description
   Eat-Da-Burger! is a restaurant app that lets users input the names of burgers they'd like to eat.
+## Deployed Site
+https://afternoon-forest-25278.herokuapp.com/
+![Home](public/assets/img/app.png) 
+
   ## Installation
   npm install
   ## Usage
