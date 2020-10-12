@@ -1,0 +1,66 @@
+<div class="contents">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light text-center">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                    <a class="navbar-brand">
+                        <a href="https://github.com/monicarangel95">
+                            <img src="./assets/img/Git.png" width="30" height="30">
+                        </a>
+                        <h1 style="margin-left: 1%;">Monica Rangel | 2020</h1>
+                    </a>
+                </div>
+        </nav>
+    <main class="main container card">
+        <section class="container middle">
+            <div class="jumbotron py-3 text-white rounded bg-dark text-center">
+                <div class="col py-3 text-center">
+                    <h1 class=" font-italic text-center orderup">The Burger Bucket List</h1>
+                    <br>
+                        <input type="text" class="form-control" width="300px" id="name" placeholder="Enter burger here"><button class="btn btn-primary" type="submit"id="submit">Order</button>
+                    <br>
+                    <br>
+                    <p>Create a Burger, then click Submit!</p>
+                </div>
+            </div>
+        </section>
+        <div class="row ">
+            <div class="col-md-6">
+                <div class="tile">
+                    <h1 id="left" class="tile-title text-center font-weight-bold">Burgers Available to Eat:</h1>
+                        <table class="font-weight-bold">
+                                    {{#each burgers}}
+                                    {{#unless devoured}}
+                                <div class="burgerblock">
+                                    <h2><img src="../assets/img/burger-icon.png" width="30" height="30" class="burger" data-id="{{this.id}}">
+                                    {{burger_name}}</h2>
+                                </div>
+                                    {{/unless}}
+                                    {{/each}}
+                        </table>
+                </div>
+            </div>
+            <div class="col-md-6" id="right">
+                    <div class="tile">
+                        <h1 id="right " class="text-center font-weight-bold">Burgers That Have Been Devoured:</h1>
+                            <table class="font-weight-bold">
+                                    {{#each burgers}}
+                                    {{#if devoured}}
+                                <div class="burgerblock">
+                                    <h2><img src="./assets/img/meal.png" width="30" height="30" class="cutlery" data-id="{{this.id}}">
+                                    {{burger_name}}</h2>
+                                </div>
+                                    {{/if}}
+                                    {{/each}}
+                            </table>
+                    </div>
+            </div>
+        </div>
+    </main>
+    <nav class="navbar navbar-light bg-light text-center">
+        <h1 class="text-center"></h1>
+            <br>
+    </nav>
+    
+</div>
