@@ -1,0 +1,19 @@
+@import url("/assets/css/reset.css");
+
+.form-group {
+    margin-bottom: 10px;
+}
+body{
+    background-color: lightpink;
+ font-family: 'Montserrat', sans-serif;
+    font-size: large;
+}
+
+.footer {
+    border-top-style: solid;
+    text-align:  center, !important; 
+    color: light pink;
+    margin-top: 1%;
+}
+
+
